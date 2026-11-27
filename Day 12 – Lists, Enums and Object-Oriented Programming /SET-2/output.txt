@@ -1,30 +1,24 @@
-POLICY PREMIUM REPORT
-Policy Number: M101, Status: Active, Premium: Rs. 25000.00
-Policy Number: M102, Status: Draft, Premium: Rs. 15000.00
-Policy Number: M103, Status: Active, Premium: Rs. 20000.00
-Policy Number: H101, Status: Active, Premium: Rs. 7500.00
-Policy Number: H102, Status: Lapsed, Premium: Rs. 9000.00
-Policy Number: H103, Status: Active, Premium: Rs. 8000.00
-Policy Number: T101, Status: Active, Premium: Rs. 5000.00
-Policy Number: T102, Status: Cancelled, Premium: Rs. 7500.00
+RENTAL REPORT
+Customer: Arun
+Vehicle: Car
+Registration: TN01AB1234
+Rental Amount: Rs. 6500
+------------------------
+Customer: Priya
+Vehicle: Bike
+Registration: TN02CD5678
+Rental Amount: Rs. 2700
+------------------------
+Customer: Kumar
+Vehicle: Van
+Registration: TN03EF9012
+Rental Amount: Rs. 6800
+------------------------
+Total Revenue: Rs. 16000
 
-REGIONAL COLLECTION TOTALS
-North Total: Rs. 37000
-South Total: Rs. 60000
-West Total: Rs. 51000
-
-MONTHLY COLLECTION TOTALS
-January Total: Rs. 45000
-February Total: Rs. 47000
-March Total: Rs. 56000
-
-UPDATED POLICY REPORT
-Policy Number: M101, Premium: Rs. 25000.00
-Policy Number: M102, Premium: Rs. 15000.00
-Policy Number: M103, Premium: Rs. 20000.00
-Policy Number: H101, Premium: Rs. 7500.00
-Policy Number: H102, Premium: Rs. 9000.00
-Policy Number: H103, Premium: Rs. 8000.00
-Policy Number: T101, Premium: Rs. 5000.00
-Policy Number: T102, Premium: Rs. 7500.00
-Policy Number: HM101, Premium: Rs. 50000.00
+----- RENTAL RECEIPT -----
+Customer: Arun
+Vehicle: Car
+Registration: TN01AB1234
+Total Amount: Rs. 9000
+--------------------------
