@@ -1,0 +1,18 @@
+POLICY PREMIUM REPORT
+Policy Number: M101, Status: Active, Premium: Rs. 25000.00
+Policy Number: M102, Status: Draft, Premium: Rs. 15000.00
+Policy Number: M103, Status: Active, Premium: Rs. 20000.00
+Policy Number: H101, Status: Active, Premium: Rs. 7500.00
+Policy Number: H102, Status: Lapsed, Premium: Rs. 9000.00
+Policy Number: H103, Status: Active, Premium: Rs. 8000.00
+Policy Number: T101, Status: Active, Premium: Rs. 5000.00
+Policy Number: T102, Status: Cancelled, Premium: Rs. 7500.00
+
+REGIONAL COLLECTION TOTALS
+North Total: Rs. 37000
+South Total: Rs. 60000
+West Total: Rs. 51000
+
+MONTHLY COLLECTION TOTALS
+January Total: Rs. 45000
+February Total: Rs. 47000
