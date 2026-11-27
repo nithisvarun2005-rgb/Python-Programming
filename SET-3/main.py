@@ -42,14 +42,14 @@ def get_base_premium(age: int, term: int) -> float:
 
 def main() -> None:
     applicants: list[dict] = [
-        {"name": "Aarav", "age": 25, "height": 1.75, "weight": 68, "smoker": False, "term": 10},
-        {"name": "Diya", "age": 34, "height": 1.62, "weight": 82, "smoker": True, "term": 15},
+        {"name": "Harini", "age": 25, "height": 1.75, "weight": 68, "smoker": False, "term": 10},
+        {"name": "Nithis", "age": 26, "height": 1.62, "weight": 80, "smoker": False, "term": 15},
         {"name": "Kabir", "age": 47, "height": 1.70, "weight": 92, "smoker": False, "term": 20},
         {"name": "Meera", "age": 55, "height": 1.60, "weight": 78, "smoker": True, "term": 25},
-        {"name": "Ishaan", "age": 29, "height": 1.80, "weight": 55, "smoker": False, "term": 12},
+        {"name": "Kathir", "age": 29, "height": 1.80, "weight": 55, "smoker": False, "term": 12},
         {"name": "Anaya", "age": 41, "height": 1.65, "weight": 63, "smoker": False, "term": 20},
         {"name": "Vihaan", "age": 17, "height": 1.72, "weight": 66, "smoker": False, "term": 10},
-        {"name": "Sara", "age": 32, "height": 1.58, "weight": 95, "smoker": True, "term": 30},
+        {"name": "Thiyagu", "age": 32, "height": 1.58, "weight": 95, "smoker": True, "term": 30},
     ]
 
     print(f"{'NAME':<10}{'BMI':>8}{'CATEGORY':<15}{'FINAL PREMIUM':>18}")
@@ -82,7 +82,7 @@ def main() -> None:
     else:
         print(f"All applicants passed validation.")
 
-    # Type conversion 
+    # Type conversion
     print(f"\nTYPE CONVERSION TESTS")
     for value in ["25", "abc", ""]:
         try:
