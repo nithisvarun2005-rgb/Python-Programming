@@ -46,19 +46,18 @@ def check_applicant(applicant: dict) -> str:
 
 
 def main() -> None:
-    applicants: list[dict] = [
-        {"name": "Aarav", "age": 28, "income": 60000, "emi": 12000, "score": 820, "job": "salaried", "loans": 1},
-        {"name": "Diya", "age": 35, "income": 50000, "emi": 26000, "score": 780, "job": "salaried", "loans": 2},
-        {"name": "Kabir", "age": 19, "income": 45000, "emi": 5000, "score": 760, "job": "salaried", "loans": 0},
+   applicants: list[dict] = [
+        {"name": "Nithis", "age": 28, "income": 60000, "emi": 12000, "score": 820, "job": "salaried", "loans": 1},
+        {"name": "Harini", "age": 27, "income": 50000, "emi": 26000, "score": 780, "job": "salaried", "loans": 2},
+        {"name": "Raj", "age": 19, "income": 45000, "emi": 5000, "score": 760, "job": "salaried", "loans": 0},
         {"name": "Meera", "age": 42, "income": 80000, "emi": 20000, "score": 720, "job": "self-employed", "loans": 1},
         {"name": "Ishaan", "age": 31, "income": 0, "emi": 0, "score": 800, "job": "salaried", "loans": 0},
-        {"name": "Anaya", "age": 50, "income": 90000, "emi": 25000, "score": 680, "job": "salaried", "loans": 1},
+        {"name": "Riki", "age": 50, "income": 90000, "emi": 25000, "score": 680, "job": "salaried", "loans": 1},
         {"name": "Vihaan", "age": 29, "income": 70000, "emi": 15000, "score": 790, "job": "contract", "loans": 0},
-        {"name": "Sara", "age": 61, "income": 65000, "emi": 10000, "score": 810, "job": "salaried", "loans": 0},
+        {"name": "Mithi", "age": 61, "income": 65000, "emi": 10000, "score": 810, "job": "salaried", "loans": 0},
         {"name": "Rohan", "age": 38, "income": 75000, "emi": 18000, "score": 850, "job": "self-employed", "loans": 1},
-        {"name": "Tara", "age": 26, "income": 55000, "emi": 10000, "score": 740, "job": "salaried", "loans": 1},
+        {"name": "Aradhya", "age": 26, "income": 55000, "emi": 10000, "score": 740, "job": "salaried", "loans": 1},
     ]
-
     approval_count: int = 0
     approval_limit: int = 3
 
