@@ -75,7 +75,7 @@ def main() -> None:
             units: float = float(value)
             print(f"Energy charge = Rs. {calculate_energy_bill(units):.2f}")
         except ValueError:
-            print(f"Invalid reading. Enter a positive number or q.")
+            print(f"Invalid reading. Enter a positive number or e.")
 
 
 if __name__ == "__main__":
