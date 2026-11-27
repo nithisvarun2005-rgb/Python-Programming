@@ -1,1 +1,13 @@
+NAME       DECISION        CREDIT BAND  RATE    
+--------------------------------------------------
+Nithis     Approved                       Excellent    8.50%
+Harini     Rejected: EMI is too high      Good         9.50%
+Raj        Rejected: age must be 21-60    Good         9.50%
+Meera      Approved                       Fair         11.00%
+Ishaan     Invalid income                
+Riki       Approved                       Low          13.50%
+Vihaan     Rejected: invalid employment type Good         9.50%
+Mithi      Rejected: age must be 21-60    Excellent    8.50%
+Daily approval limit of 3 reached.
+Total approvals: 3
 
