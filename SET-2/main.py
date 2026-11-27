@@ -49,10 +49,10 @@ def print_bill(units: float, category: str, late: bool, online: bool) -> None:
 
 
 def main() -> None:
-    print_bill(250, "domestic", True, False)
+    print_bill(170, "domestic", True, False)
 
     # for loop prints a 12-month statement
-    monthly_units: list[float] = [95, 120, 180, 205, 250, 310, 400, 401, 350, 275, 150, 100]
+    monthly_units: list[float] = [95, 125, 184, 206, 251, 311, 400, 401, 350, 275, 150, 100]
     print(f"\n{'MONTH':<12}{'UNITS':>10}{'ENERGY BILL':>15}")
     for month in range(12):
         bill: float = calculate_energy_bill(monthly_units[month])
@@ -60,7 +60,7 @@ def main() -> None:
 
     # Required boundary tests
     print(f"\nBOUNDARY TESTS")
-    for units in [100, 101, 200, 201, 400, 401]:
+    for units in [200, 101, 100, 301, 400, 501]:
         print(f"{units} units = Rs. {calculate_energy_bill(units):.2f}")
 
     # while loop accepts readings until q is entered
