@@ -63,11 +63,11 @@ def main() -> None:
     for units in [200, 101, 100, 301, 400, 501]:
         print(f"{units} units = Rs. {calculate_energy_bill(units):.2f}")
 
-    # while loop accepts readings until q is entered
-    print(f"\nEnter electricity readings. Type q to stop.")
+    # while loop accepts readings until e is entered
+    print(f"\nEnter electricity readings. Type e to stop.")
     while True:
         value: str = input("Enter units: ")
-        if value.lower() == "q":
+        if value.lower() == "e":
             print(f"Finished entering readings.")
             break
 
