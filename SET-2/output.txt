@@ -1,1 +1,37 @@
+  ELECTRICITY BILL          
+Units                   170.00
+Category              domestic
+Energy charge       Rs.  325.00
+Fixed charge        Rs.   50.00
+Total amount        Rs.  393.75
+
+MONTH            UNITS    ENERGY BILL
+1                95.00         142.50
+2               125.00         212.50
+3               184.00         360.00
+4               206.00         424.00
+5               251.00         604.00
+6               311.00         844.00
+7               400.00        1200.00
+8               401.00        1206.00
+9               350.00        1000.00
+10              275.00         700.00
+11              150.00         275.00
+12              100.00         150.00
+
+BOUNDARY TESTS
+200 units = Rs. 400.00
+101 units = Rs. 152.50
+100 units = Rs. 150.00
+301 units = Rs. 804.00
+400 units = Rs. 1200.00
+501 units = Rs. 1806.00
+
+Enter electricity readings. Type q to stop.
+Enter units: 170
+Energy charge = Rs. 325.00
+Enter units: 140
+Energy charge = Rs. 250.00
+Enter units: e
+Finished entering readings.
 
