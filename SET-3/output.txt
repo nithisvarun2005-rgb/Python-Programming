@@ -1,1 +1,16 @@
+NAME           BMICATEGORY            FINAL PREMIUM
+---------------------------------------------------
+Harini       22.20Normal                    5000.00
+Nithis       30.48Obese                     6900.00
+Kabir        31.83Obese                    13800.00
+Meera        30.47Obese                    18850.00
+Kathir       16.98Underweight               5922.50
+Anaya        23.14Normal                    8050.00
+Vihaan     Ineligible: Age must be between 18 and 60.
+Batch stopped because an applicant is invalid.
+
+TYPE CONVERSION TESTS
+'25' converted to 25.
+'abc' cannot be converted to an integer.
+'' cannot be converted to an integer.
 
